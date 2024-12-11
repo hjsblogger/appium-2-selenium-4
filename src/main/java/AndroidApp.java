@@ -87,7 +87,7 @@ public class AndroidApp {
             ltOptions.put("language", "en");
             ltOptions.put("appiumVersion", "2.2.1");
             ltOptions.put("locale", "en");
-            ltOptions.put("autoAcceptAlerts", false);
+            ltOptions.put("autoAcceptAlerts", true);
             ltOptions.put("isRealMobile", true);
 
             capabilities.setCapability("LT:Options", ltOptions);
