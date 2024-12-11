@@ -79,7 +79,11 @@ public class AndroidApp {
             ltOptions.put("video", true);
             ltOptions.put("build","MMT Troubleshooting");
             ltOptions.put("name", "MMT");
+            /* App or Bundle Identifier for pre-installed apps */
+            /* ltOptions.put("bundleId", "com.example.myapp"); */
             ltOptions.put("app", app_id);
+            /* Set this capability to true for private devices */
+            ltOptions.put("private", false);
             ltOptions.put("language", "en");
             ltOptions.put("appiumVersion", "2.2.1");
             ltOptions.put("locale", "en");
